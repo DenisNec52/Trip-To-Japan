@@ -1,0 +1,69 @@
+
+.logo {
+    height: 4rem;
+    width: auto;
+}
+
+.p-5.mb-4.bg-body-tertiary.rounded-3.bg-dark{
+    color:white;
+}
+
+.Background {
+    background-image: url(Background.jpeg);
+}
+
+.card-img-top.img_card_sale{
+    width: 254px;
+    height: 169px;
+}
+.card-text.bg-danger.text-white.rounded-circle a {
+    color: white;
+    text-decoration: none;
+}
+.off{
+    margin-left: 40px;
+}
+.Sum {
+    margin-left: 40px;
+}
+.Last{
+    margin-left: 40px;
+}
+
+#welcome_summer .card-img-top.img_card_Sum{
+    width: 200px;
+    height: 119px;
+}
+
+*{
+    border-radius: 20px;
+}
+#testimonial {
+    display: flex;
+    justify-content: center;
+}
+.row.row-cols-sm-2.row-cols-md-3.row-cols-lg-6.g-5#testimonial {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.c4l-rating input[name="c4l-rating"] { display: none; }
+.c4l-rating input[name="c4l-rating"] + label:after { content: none; }
+.c4l-rating input[name="c4l-rating"] + label { font-family: 'FontAwesome'; }
+.c4l-rating input[name="c4l-rating"] + label:before {
+    background-color: transparent;
+    border: none;
+    color: #ffc107;
+    content: '\f005';
+    font-size: 1.33333333em;
+    transition: none;
+}
+.c4l-rating input[name="c4l-rating"]:checked ~ label:before {
+    background-color: transparent;
+    border: none;
+    color: #607d8b;
+}
+.c4l-rating input[name="c4l-rating"]:checked + label:before { color: #ffc107; }
+.c4l-rating input[name="c4l-rating"] + label:hover ~ input + label:before { opacity: 0.6; }
+
+
